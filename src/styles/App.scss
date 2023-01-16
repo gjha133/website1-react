@@ -7,4 +7,23 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
+
+    ::-webkit-scrollbar {
+            width: 10px;
+        }
+    
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: white;
+        }
+    
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #090c31df;
+        }
+    
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(9, 12, 49, 0.575);
+        }
 }
